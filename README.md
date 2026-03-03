@@ -2,6 +2,7 @@
 
 This repository contains a Twilio-connected real-time voice agent using Deepgram (demo mode) and OpenAI.
 ---
+<img width="600" alt="main arch" src="https://github.com/user-attachments/assets/6752e80a-4de8-4cc4-8f71-05f0bd719ded" />
 
 ## 1. Environment Setup
 
