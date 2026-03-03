@@ -224,37 +224,4 @@ This script:
 
 ---
 
-## Step 4: Evaluate Accuracy in Notebook
-
-Open the evaluation notebook:
-```bash
-jupyter notebook evaluation/NLP_ASR_Evaluation.ipynb
-```
-
-Required files before running:
-1. `extracted_results_all.csv` (from Step 3)
-2. `email_evals.csv` (optional, generated during extraction)
-
-Key notebook cells to run in order:
-
-## Complete Workflow Example
-
-```bash
-# Setup
-cd d:\nlp-voice-agent
-
-# Step 1: Place files manually
-# Create audio_dataset/ folders with audio.wav + groundtruth.json
-
-# Step 2: Generate transcripts
-python transcription/process_audio_dataset.py
-
-# Step 3: Extract information
-python extraction/extract_from_transcripts.py
-
-# Step 4: Evaluate in notebook
-jupyter notebook evaluation/NLP_ASR_Evaluation.ipynb
-```
-
----
 
